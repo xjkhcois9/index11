@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>لعبة أسئلة وأجوبة</title>
+  <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+  <div class="quiz-container">
+    <h1>لعبة أسئلة وأجوبة</h1>
+    <div id="hud">
+      <div id="score">النقاط: 0</div>
+      <div id="timer">الوقت: 15</div>
+    </div>
+    <div id="question-container">
+      <div id="question">السؤال سيظهر هنا</div>
+      <div id="answer-buttons" class="btn-grid"></div>
+    </div>
+    <button id="next-btn" class="next-btn">التالي</button>
+    <div id="end-screen" class="hidden">
+      <h2 id="final-score">انتهت اللعبة! نتيجتك: 0</h2>
+      <button id="restart-btn" class="next-btn">إعادة اللعب</button>
+    </div>
+  </div>
+  <script src="script1.js"></script>
+</body>
+</html>
